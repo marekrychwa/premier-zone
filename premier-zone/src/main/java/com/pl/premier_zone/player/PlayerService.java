@@ -2,6 +2,8 @@ package com.pl.premier_zone.player;
 
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -83,5 +85,6 @@ public class PlayerService {
 
     public void deletePlayer(String playerName) {
         playerRepository.deleteByPlayerName(playerName);
+
     }
 }
