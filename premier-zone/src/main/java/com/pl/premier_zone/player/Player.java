@@ -135,6 +135,7 @@ public class Player {
     }
 
     public Double getRedCards() {
+
         return redCards;
     }
 
