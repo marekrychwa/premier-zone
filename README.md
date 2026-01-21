@@ -15,18 +15,18 @@ All data is used strictly for educational and non-commercial purposes.
 
 ## 🚀 Features
 
-### ⚽ Football Stats (REST CRUD) - Target: Grade 4.0
+### ⚽ Football Stats (REST CRUD) 
 - **Full CRUD operations** for players (Create, Read, Update, Delete).
 - **Advanced Filtering**: Filter players by team, name, position, or nation.
 - **Persistence**: Data stored in a **PostgreSQL** database using Spring Data JPA.
 
-### 🌐 Network Programming - Target: Grade 3.0
+### 🌐 Network Programming 
 - **DNS Resolver**: Endpoint `/api/v1/network/dns/{domain}` to resolve hostnames to IP addresses using `InetAddress`.
 - **UDP Server**: A multi-threaded UDP server running on port `9999`.
   - **DB Integration**: Responds to `GET_COUNT` datagrams by querying the database and returning the total player count to the client.
 - **UDP Client Test**: Includes a test client (`UdpClientTest.java`) demonstrating request-response communication over UDP.
 
-### 🔌 External API Integration - Target: Grade 4.0
+### 🔌 External API Integration 
 - **Wikipedia Integration**: Endpoint `/api/v1/external/wiki?clubName=...` fetches real-time club descriptions.
 - **Advanced HTTP**: Uses `RestTemplate` with custom `User-Agent` headers to bypass automated request blocking.
 
